@@ -251,23 +251,23 @@ ol{
 
 @keyframes xfade{
   0% {
-    background-image: url('assets/images/slider01.jpg');
+    background-image: url('./assets/images/slider01.jpg');
   }
 
   25% {
-    background-image: url('assets/images/slider02.jpg');
+    background-image: url('./assets/images/slider02.jpg');
   }
 
   50% {
-    background-image: url('/assets/images/s-1.jpg');
+    background-image: url('./assets/images/s-1.jpg');
   }
 
   75% {
-    background-image: url('assets/images/s-2.jpg');
+    background-image: url('./assets/images/s-2.jpg');
   }
 
   100% {
-    background-image: url('assets/images/slider01.jpg');
+    background-image: url('./assets/images/slider01.jpg');
   }
 }
 
@@ -493,7 +493,7 @@ ol{
 
 /* Our Features */
 .features{
-  background: url('assets/images/feature-bg.jpg') no-repeat;
+  background: url('./assets/images/feature-bg.jpg') no-repeat;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
